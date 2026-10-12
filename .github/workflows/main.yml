@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - gh-pages
+      - "try/**"
 
 jobs:
   run-script:
